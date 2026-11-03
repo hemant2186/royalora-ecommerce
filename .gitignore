@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Hosting and deployment
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configuration
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Temporary files
+.tmp/
+.temp/
